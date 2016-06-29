@@ -5,8 +5,9 @@
   "version": "1.0.0",
   "publisher": "wesleyahall",
   "engines": {
-    "vscode": "^0.10.8"
+    "vscode": "^0.10.11"
   },
+  "license": "MIT",
   "icon": "stylus.svg",
   "galleryBanner": {
     "color": "#0000FF",
@@ -27,7 +28,7 @@
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
   "devDependencies": {
-		"vscode": "^0.10.8"
+		"vscode": "^0.11.1"
 	},
   "repository": {
     "type": "git",
