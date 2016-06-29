@@ -1,0 +1,40 @@
+{
+  "name": "stylintrc",
+  "displayName": "Stylintrc",
+  "description": "JSON validation for stylintrc",
+  "version": "1.0.0",
+  "publisher": "wesleyahall",
+  "engines": {
+    "vscode": "^0.10.8"
+  },
+  "icon": "stylus.svg",
+  "galleryBanner": {
+    "color": "#0000FF",
+    "theme": "dark"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "jsonValidation": [
+      {
+        "fileMatch": ".stylintrc",
+        "url": "http://json.schemastore.org/stylintrc"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+		"vscode": "^0.10.8"
+	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleyahall/vscode-stylintrc"
+  },
+  "bugs": {
+    "type": "git",
+    "email": "wesleyahall@gmail.com"
+  }
+}
